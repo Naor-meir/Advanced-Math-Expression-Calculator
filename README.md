@@ -32,13 +32,14 @@ This project implements an advanced math expression calculator using a fully obj
    Open your terminal and run:
    ```bash
    git clone https://github.com/yourusername/AdvancedMathExpressionCalculator.git
-Navigate to the Project Directory:
+2. **Navigate to the Project Directory**  
+   ```bash
+   cd AdvancedMathExpressionCalculator
+3. **Open in Your IDE**  
+   Use your favorite Java IDE (**IntelliJ IDEA**, **Eclipse**, **VS Code**, etc.) to open the project.
 
-bash
-Copy
-cd AdvancedMathExpressionCalculator
-Open in Your IDE:
-Use your favorite Java IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) to open the project.
+4. **Compile and Run**  
+   Ensure you have **JDK 11 or later** installed, compile the project, and run the `Main` class to see a demonstration of the calculator in action.
 
-Compile and Run:
-Ensure you have JDK 11 or later installed, compile the project, and run the Main class to see a demonstration of the calculator in action.
+
+
