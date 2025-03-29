@@ -14,22 +14,8 @@ This project implements an advanced math expression calculator using a fully obj
   - **Internal Nodes:** Represent operations (binary or unary), enabling the construction of complex, nested expressions.
   - **Evaluation:** A map (e.g., `Map<String, Double>`) is used to assign values to variables as the tree is recursively evaluated.
   - Below is an example of an expression tree for the expression:    
-\[
-((x + 5) \times \sin(y)) + (3^x)
-\]
+![Expression Tree](image/expression_tree.png)
 
-```plaintext
-                   (Add)
-                     ↓
-             ┌───────┴───────┐
-             ↓               ↓
-         (Multiply)        (Power)
-           ↓     ↘          ↓     ↘
-         ↓         ↘       ↓       ↘
-      (Add)       (Sin)   (3)     (x)
-       ↓  ↘         ↓
-     (x)  (5)      (y)
-```
 
 - **Modularity & Extensibility:**  
   The design is highly modular, making it easy to add new operations or adjust existing ones with minimal changes to the overall codebase.
