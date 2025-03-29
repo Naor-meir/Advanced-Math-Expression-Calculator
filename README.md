@@ -26,6 +26,7 @@ This project implements an advanced math expression calculator using a fully obj
          Add    Sin    3    x
         /   \     \
        x     5     y
+```
 
 - **Modularity & Extensibility:**  
   The design is highly modular, making it easy to add new operations or adjust existing ones with minimal changes to the overall codebase.
