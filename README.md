@@ -14,7 +14,8 @@ This project implements an advanced math expression calculator using a fully obj
   - **Internal Nodes:** Represent operations (binary or unary), enabling the construction of complex, nested expressions.
   - **Evaluation:** A map (e.g., `Map<String, Double>`) is used to assign values to variables as the tree is recursively evaluated.
   - Below is an example of an expression tree for the expression:    
-![Expression Tree](images/tree image.png)
+![Expression Tree](images/tree%20image.png)
+
 
 
 - **Modularity & Extensibility:**  
